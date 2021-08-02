@@ -16,15 +16,15 @@ public class Main {
         System.out.print("Digite o valor do inicio: ");
         iniIntervalo = scanner.nextInt();
 
-        System.out.print("Digite o valor do inicio: ");
+        System.out.print("Digite o valor do fim: ");
         fimIntervalo = scanner.nextInt();
 
 
         if(multiplicando > 1000 ) {
-            System.out.print("Inforamções invalidas");
+            System.out.print("informações invalidas");
         }
         if ((iniIntervalo < 0||fimIntervalo < 0) ||(fimIntervalo - iniIntervalo > 10 ) || (iniIntervalo > fimIntervalo) ){
-            System.out.print("Inforamções invalidas");
+            System.out.print("informações invalidas");
         } 
         else {
         
