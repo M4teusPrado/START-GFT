@@ -23,7 +23,7 @@ public class Main {
         if(multiplicando > 1000 ) {
             System.out.print("informações invalidas");
         }
-        if ((iniIntervalo < 0||fimIntervalo < 0) ||(fimIntervalo - iniIntervalo > 10 ) || (iniIntervalo > fimIntervalo) ){
+        if ((iniIntervalo < 0||fimIntervalo < 0) ||(fimIntervalo - iniIntervalo > 10 ) || (iniIntervalo > fimIntervalo) ||  (iniIntervalo > 1000 ||fimIntervalo > 1000 )){
             System.out.print("informações invalidas");
         } 
         else {
